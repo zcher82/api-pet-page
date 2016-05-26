@@ -1,0 +1,37 @@
+header {
+  background-image: url("http://www.petandplant.com/img/content/band-1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-color: white;
+  position: relative;
+}
+
+.headimg {
+  background-size: contain;
+}
+
+.homeMessage {
+  text-align: center;
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+body {
+  background-position: top 0% right 50%;
+  background-image: url("http://allpetsstore.com/wp-content/uploads/2015/04/Pets-17.jpg");
+  background-repeat: no-repeat;
+
+}
+
+.tag {
+  font-size: 40px;
+  position: absolute;
+  top: 70%;
+  left: 10%;
+}
+
+.btn-info {
+  margin-right: 2px;
+  margin-left: 2px;
+}

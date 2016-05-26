@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Pet Finder</title>
+    <link rel="stylesheet" href="/vendors/bootstrap.min.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+
+    <script type="text/javascript" src="/vendors/angular.min.js"></script>
+    <script type="text/javascript" src="/vendors/angular-route.min.js"></script>
+    <script type="text/javascript" src="/scripts/ang_app.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/homecontroller.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/catscontroller.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/dogscontroller.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/reptilescontroller.js"></script>
+    <!-- Angular -->
+
+</head>
+<body ng-app="myApp">
+
+  <header ng-include="'/views/templates/header.html'" class="jumbotron text-center"></header>
+
+
+
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <ul class="nav nav-pills nav-justified">
+        <li><a href="#home" class="btn btn-info">Home</a></li>
+        <li><a href="#dogs" class="btn btn-info">Dogs</a></li>
+        <li><a href="#cats" class="btn btn-info">Cats</a></li>
+        <li><a href="#reptiles" class="btn btn-info">Reptiles</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+
+  <main ng-view></main>
+
+</body>
+</html>
